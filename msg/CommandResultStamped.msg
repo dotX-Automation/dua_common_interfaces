@@ -8,9 +8,9 @@
 std_msgs/Header header
 
 # Operation result code
-uint8 SUCCESS=0 # Task completed successfully
-uint8 FAILED=1  # Task failed
-uint8 ERROR=2   # Unrecoverable error
+uint8 SUCCESS=1 # Task completed successfully
+uint8 FAILED=2  # Task failed
+uint8 ERROR=3   # Unrecoverable error
 uint8 result
 
 # Error description
